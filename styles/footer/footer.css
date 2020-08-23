@@ -1,0 +1,311 @@
+@font-face {
+  font-family: "PF Din Text Cond Pro";
+  src: url(../fonts/PFDinTextCondPro-Regular.ttf);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.footer__header-first {
+  margin-top: 4%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+.footer__header-second {
+  margin-top: 1%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.footer__img {
+  margin-top: 1%;
+}
+
+.footer__more-info {
+  background: #f6f6f6;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.footer__more-info_info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+}
+
+.footer__more-info_info-wrapper span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footer__more-info_info-wrapper p {
+  font-family: "PF Din Text Cond Pro", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  width: 45%;
+  margin-top: 5%;
+}
+
+.footer__more-info_info-wrapper button {
+  border: 1px solid #2f80ed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+  width: 220px;
+  height: 44px;
+  margin-top: 5%;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2f80ed;
+}
+
+.footer__more-info_info-wrapper button:focus {
+  outline: none;
+}
+
+.footer__more-info_info-wrapper button:hover {
+  -webkit-box-shadow: 0 0 5px #2f80ed;
+          box-shadow: 0 0 5px #2f80ed;
+}
+
+.footer__more-info_info-wrapper button:active {
+  -webkit-box-shadow: inset 1px 1px 10px -1px;
+          box-shadow: inset 1px 1px 10px -1px;
+}
+
+.footer__more-info_neurology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170%;
+  background: #f6f6f6;
+  cursor: auto;
+}
+
+.footer__more-info_neurology img {
+  margin: 5%;
+}
+
+.footer__more-info_neurology_triangle {
+  width: 0;
+  height: 0;
+  border-top: 35px solid white;
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 20.5%;
+}
+
+.footer__more-info_massage {
+  display: none;
+}
+
+.footer__more-info_massage_triangle {
+  width: 0;
+  height: 0;
+  border-top: 35px solid white;
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 47%;
+}
+
+.footer__more-info_rheumatology {
+  display: none;
+}
+
+.footer__more-info_rheumatology_triangle {
+  width: 0;
+  height: 0;
+  border-top: 35px solid white;
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 74%;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 10% 0;
+  cursor: pointer;
+}
+
+.footer ul li h3 {
+  margin-top: 10%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footer ul li:first-child:hover .footer__more-info_neurology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170%;
+  background: #f6f6f6;
+  cursor: auto;
+}
+
+.footer ul li:first-child:hover .footer__more-info_neurology img {
+  margin: 5%;
+}
+
+.footer ul li:nth-child(2) {
+  border-left: 1px solid #2f80ed;
+  border-right: 1px solid #2f80ed;
+}
+
+.footer ul li:nth-child(2):hover .footer__more-info_massage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170%;
+  background: #f6f6f6;
+  cursor: auto;
+}
+
+.footer ul li:nth-child(2):hover .footer__more-info_massage img {
+  margin: 5%;
+}
+
+.footer ul li:nth-child(2):hover .footer__more-info_neurology {
+  display: none;
+}
+
+.footer ul li:nth-child(3):hover .footer__more-info_rheumatology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170%;
+  background: #f6f6f6;
+  cursor: auto;
+}
+
+.footer ul li:nth-child(3):hover .footer__more-info_rheumatology img {
+  margin: 5%;
+  height: 60vh;
+}
+
+.footer ul li:nth-child(3):hover .footer__more-info_neurology {
+  display: none;
+}
+/*# sourceMappingURL=footer.css.map */

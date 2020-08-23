@@ -1,0 +1,18 @@
+.background {
+  background-image: url(../../img/main_background.png);
+  background-repeat: no-repeat;
+  height: 85vh;
+  position: relative;
+
+  &__gradient {
+    position: absolute;
+    right: 0;
+    height: 85vh;
+    width: 75%;
+    background: linear-gradient(
+      87.68deg,
+      rgba(255, 255, 255, 0) 7.73%,
+      rgba(255, 255, 255, 0.9) 55.76%
+    );
+  }
+}
